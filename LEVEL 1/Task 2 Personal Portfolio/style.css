@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Fira+Sans:ital@1&family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(173, 164, 164);
+    /* width: 434px; */
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.9s ease-in ;
+    
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:  33px 0px;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    margin: 0px 30px;
+    /* background-color: yellow; */
+    width: 85vw;
+    height: 100vh;
+    padding-left: 90px;
+}
+.info{
+    /* background-color: rgb(139, 65, 78); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.devinfo{
+    font-size: 16px;
+    /* justify-items: center; */
+   justify-content: center;
+   flex-direction: column;
+   display: flex;
+   font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-weight: lighter;
+    font-size: 3em;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.about{
+    font-size: 2.5em;
+    font-family: 'Source Code Pro', monospace;
+}
+.moreabout{
+    font-size: 1.1em;
+    margin-top: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 2.2em ;
+    font-size: 8px;
+}
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Source Code Pro', monospace;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.devpic img{
+    /* display: flex; */
+    height: 58vh;
+    margin: 0px;
+    padding: 0px; 
+}
+.container{
+    display: flex;
+}
+.contactform{
+    padding: 0px 34px; 
+    margin:88px;
+    font-family: 'Source Code Pro', monospace;
+}
+.contactform h1{
+    /* text-align: center; */
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form{
+    margin: 0px 40px;
+}
+.contactform form div input{
+    /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0px 5px;
+    padding: 3px 0 0 0 ;
+}
+.form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px ;
+    margin: 3px 0;
+}
+.projectcontainer h1{
+    margin: 88px;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+}
+.p1{
+    margin: 40px 0 0 0;
+}
+.p1 p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 6px 0 0 0;
+}
+.p1  h2 a{
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.intro h2{
+    margin: 88px 12px 5px ;
+    font-family: 'Fira Sans', sans-serif;
+}
+.intro p{
+    margin:12px ;
+    font-family: 'Source Code Pro', monospace;
+}
+.skillcontainer{
+    margin : 88px 12px 5px 0px;
+    padding: 12px;
+}
+.skillcontainer h2{
+    margin: 10px 0;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'Source Code Pro', monospace 
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    
+}
+.hundred{
+    background-color: blueviolet;
+   width: 265px; 
+}
+.fifty{
+    background-color: aqua;
+    width: 125px ;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin: 10px 0 0 150px;
+}
+.resume{
+    justify-content: center;
+    text-align: center;
+    margin: 250px 0 0 0;
+    /* padding-top: 50vh; */
+}
+.resume a{
+    text-decoration: none;
+    
+    /* */
+}
+@media (max-width: 700px){
+    /* *{
+         background-color: rgb(192, 119, 119); 
+    } */
+    /* .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+    .buttons{
+        font-size: 6px;
+    }
+    .devinfo{
+        font-size: 10px;
+    }
+    .devpic{
+        display: none;
+    }
+    .intro, .projectcontainer, .contactform{
+        margin: 50px 8px;
+    }
+}
